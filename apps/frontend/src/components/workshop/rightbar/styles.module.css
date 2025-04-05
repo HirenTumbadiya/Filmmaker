@@ -1,0 +1,3 @@
+.rightbar::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers like Chrome, Safari */
+}

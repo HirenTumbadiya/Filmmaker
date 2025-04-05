@@ -1,3 +1,6 @@
+import WorkshopNavbar from "@/components/workshop/navbar";
+import RightBar from "@/components/workshop/rightbar";
+
 export default function WorkshopLayout({
   children,
 }: {
@@ -6,7 +9,9 @@ export default function WorkshopLayout({
   return (
     <html lang="eng">
       <body>
-        <main className="bg-black h-screen w-screen overflow-hidden">
+        <main className="bg-black h-screen w-screen overflow-hidden relative">
+          <WorkshopNavbar />
+          <RightBar/>
           {children}
         </main>
       </body>
